@@ -84,3 +84,39 @@
     color: var(--branco);
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 1.625rem;
+        line-height: 39px;
+        padding: 3.17rem 0 1rem 0;
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0 4.84rem 0;
+    }
+
+    .swiper {
+        width: 60%;
+  
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 66%;
+    }
+
+    .swiper-button-next {
+        left: 92%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 3.8rem auto 3rem auto;
+    }
+
+    .swiper-slide img{
+        width: 90%;  
+    }
+
+}
