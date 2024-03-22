@@ -12,14 +12,12 @@
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002F52;
     --preto: #000000;
+    --cinza-claro: #858585;
+    --cinza-escuro: #474646;
+
     --fonte-principal: "Poppins", sans-serif;
     --fonte-secundaria: "Josefin Sans", sans-serif;
 }
-
-/* * {
-    margin: 0;
-    padding: 0;
-} */
 
 body {
     background-color: var(--cor-de-fundo);
