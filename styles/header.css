@@ -68,13 +68,17 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho__menu-hamburguer {
         display: none;
     }
 
-    .container__imagem-logo {
-        padding: 1.25rem .5rem 1.25rem 5rem;
+    .cabecalho {
+        padding: 0 5rem;
     }
 
     .container__titulo, .container__titulo--negrito {
@@ -117,5 +121,35 @@
     
     .opcoes__botao {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        padding: 0 5rem;
+    }
+    
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+    .container-perfil {
+        gap: 3.8rem;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__titulo {
+        margin-right: 3.5rem;
     }
 }
