@@ -118,6 +118,10 @@
     .swiper-slide img{
         width: 90%;  
     }
+
+    .botoes__ancora:active {
+        background-color: var(--azul);
+    }
 }
 
 @media screen and (min-width:1728px) {
