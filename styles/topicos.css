@@ -42,5 +42,16 @@
     .topicos__item {
         margin: 2.25rem .75rem;
     }
+}
 
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 4rem 20vw;
+    }
+
+    .topicos__titulo {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+    }
 }

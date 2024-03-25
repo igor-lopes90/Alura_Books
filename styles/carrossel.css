@@ -118,5 +118,49 @@
     .swiper-slide img{
         width: 90%;  
     }
+}
+
+@media screen and (min-width:1728px) {
+    .carrossel__titulo {
+        font-size: 2rem;
+        line-height: 48px;
+        padding: 4rem 0 1rem 0;
+    }
+
+    .carrossel__container {
+        display: flex;
+        margin: 0 15vw 3rem 15vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 0 0 2rem 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        top: 60%;
+    }
+
+    .swiper-button-prev {
+        left: 1%;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 5.25rem;
+    }
+
+    .descricao__titulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .descricao__texto {
+        font-size: 1rem;
+    }
+
+    .descricao {
+        margin-right: 2rem;
+    }
 
 }
